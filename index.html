@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+    </style>
     <title>Shoes</title>
 </head>
+
 <body>
     <header>
-        <img src="" alt="Shoes">
+        <img src="./public/img/logo-color.png" alt="Vantagens">
         <nav>
             <ul>
                 <li><a href="#">Todos os Produtos</a></li>
@@ -16,61 +25,75 @@
                 <li><a href="#">Outlet</a></li>
             </ul>
         </nav>
-        <img src="" alt="Vantagens">
     </header>
-    
-    <section id="estilo">
+    <section id="destaque">
+        <img id="banner" src="./public/img/banner.png" alt="Shoes">
+    </section>
+    <section class="estilo" id="estilo">
         <h2>encontre seu estilo</h2>
-        <img src="" alt="">
-        <img src="" alt="">
+        <div class="container">
+            <img id="1" src="./public/img/photoshoot-1.png" alt="">
+            <img id="2" src="./public/img/photoshoot-2.png" alt="">
+        </div>
     </section>
     <section id="off">
         <h2>30% OFF</h2>
-        <div>
+        <div class="container" id="unica">
             <a href="#">
-                <img src="" alt="">
-                <div>
+                <img src="./public/img/shoes1.png" alt="">
+                <div id="off1">
                     <span class="nome">Scarpin Salto Fino Básico</span>
+                    <br>
                     <span class="preco">R$ 140,00</span>
                 </div>
             </a>
             <a href="#">
-                <img src="" alt="">
-                <div>
+                <img src="./public/img/shoes2.png" alt="">
+                <div id="off2">
                     <span class="nome">Scarpin Salto Fino Básico</span>
+                    <br>
                     <span class="preco">R$ 140,00</span>
                 </div>
             </a>
             <a href="#">
-                <img src="" alt="">
-                <div>
+                <img src="./public/img/shoes3.png" alt="">
+                <div id="off3">
                     <span class="nome">Scarpin Salto Fino Básico</span>
+                    <br>
                     <span class="preco">R$ 140,00</span>
                 </div>
             </a>
             <a href="#">
-                <img src="" alt="">
-                <div>
+                <img src="./public/img/shoes4.png" alt="">
+                <div id="off4">
                     <span class="nome">Scarpin Salto Fino Básico</span>
+                    <br>
                     <span class="preco">R$ 140,00</span>
                 </div>
             </a>
         </div>
     </section>
-    <section id="produto-destaque">
-        <h2>
+    <section class="grid-container" id="produto-destaque">
+        <div class="destaque" id="#destaque">
+        <h2 class="title">
             Sandália Palmilha Matelassê Tiras Rolote
         </h2>
         <a class="button" href="#">ver detalhes</a>
-        <img src="" alt="Detalhe do produto">
-        <img src="" alt="Produto na modelo">
+    </div>
+        <img class="detalhe" id="detalhe" src="./public/img/photoshoot-3.png" alt="Detalhe do produto">
+
+        <img class="modelo" id="modelo" src="./public/img/photoshoot-4.png" alt="Produto na modelo">
     </section>
     <footer>
-        <section id="Contatos">
-            <img src="" alt="Shoes">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae, aspernatur porro sapiente quasi numquam distinctio libero corporis</p>
+        <section class="Contatos">
+            <img src="./public/img/logo-white.png" alt="Shoes">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>
+                Voluptate molestiae, aspernatur porro sapiente
+                <br>
+                quasi numquam distinctio libero corporis</p>
         </section>
-        <section id="Links">
+        <section class="Links">
             <article class="categorias">
                 <ul>
                     <li><a href="#">Lalala</a></li>
@@ -80,7 +103,9 @@
                     <li><a href="#">Lalala</a></li>
                 </ul>
             </article>
-            <article class="institucional">
+        </section>
+        <section>
+            <article class="Institucional">
                 <ul>
                     <li><a href="#">Lalala</a></li>
                     <li><a href="#">Lalala</a></li>
@@ -92,4 +117,5 @@
         </section>
     </footer>
 </body>
+
 </html>
